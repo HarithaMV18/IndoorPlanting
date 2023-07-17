@@ -87,7 +87,43 @@ img{
     }
     
 }
+@media (max-width:785px){
+ 
+    .nav-items ul li {
+       
+        font-size: 1.4rem;
+        margin-top: 8px;
+    }
+    .header_container{
+        width: 673px;
+    }
+    .s1-para{
+        margin: 10px;
+    }
+    .nav-items{
+        max-height: 70px;
+        padding: 10px;
+    }
+    
+}
+@media (max-width:706px){
+    .nav-items ul li {
+       
+        font-size: 1.2rem;
+        margin-top: 8px;
+    }
 
+}
+@media (max-width:667px){
+    .header_container{
+        width: 600px;
+        font-size: 1.2rem;
+    }
+    .main-heading{
+        font-size: 1.9rem;
+    }
+
+}
 
 
 
