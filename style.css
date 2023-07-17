@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Eater', cursive;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Dancing Script', cursive, monospace;
+    font-size: 2rem;
+}
+.main-heading{
+    text-align: center;
+}
+.nav-items{
+    background-color: rgba(119, 136, 153, 0.12);
+    height: 100px;
+    
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-items ul li{
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+   margin:25px 40px 0px 40px;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 600px;
+}
+
+.header_container{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   grid-template-rows: 1fr 1fr;
+   margin: 0px auto;
+   background-color: white;
+   width: 785px;
+}
+.fa-navicon{
+    visibility: hidden;
+
+}
+.main-heading-img{
+    width:218px;
+    grid-row: span 2;
+}
+.indoor-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 0px auto;
+    width: 80%;
+}
+.indoor-planting{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    flex-direction: column;  
+}
+.decor-image{
+    max-width:410px;
+    min-height:488px;
+    object-fit: cover;   
+    border-radius: 25px;  
+}
+@media (max-width:1350px){
+    .indoor-container{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
